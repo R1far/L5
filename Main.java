@@ -42,7 +42,7 @@ class Сalculator {
     public void three(double x, double a, double b) {
         if (b != 0) {
             double temp = a * x / b;
-            int num = (int)temp;
+            double num = temp;
             int result = 1;
             for (int i = 1; i <= num; i++) {
                 result = result * i;
